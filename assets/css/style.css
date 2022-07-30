@@ -1,0 +1,128 @@
+/*
+selector: etiqueta p
+propiedad: color
+valor: rgb(0, 145, 29)
+*/
+
+/* Para poner un comentario rapido se puede utilizar CTRL + }*/
+
+/*
+
+Selectores
+
+    - Selectores por etiqueta
+
+    Son instrucciones que podemos usar para seleccionar nuestras ETIQUETAS de HTML. Los selectores son una manera de identificar una etiqueta en particular.
+
+    Una vez que seleccionamos nuestro elemento, abrirelos llaves para poder modificar sus propiedades. Cerramos las llaves cuando terminemos de modificar.
+
+    - Selectores por clase
+
+    Cuando usamos una clase, podemos realizar la misma modificaciones para todos los elementos que tengan esa clase en comun. Para modificarlo, los seleccionas con un punto.
+
+    Ejemplo:
+        .nomnreDeLaClase
+
+
+    - Selectores por ID
+
+    Usamos un ID como manera de identificacion de un elemento en particular, y lo seleccionamos con el signo de gato o numeral
+
+    Ejemplo:
+        #nombreDelId
+
+
+
+*/
+
+body { background-color: pink;}
+
+
+#Parrafo1 { color: rgb(145, 114, 0); background-color: rgb(215, 215, 215);
+}
+
+#Parrafo3 { color: rgb(0, 145, 29); background-color: rgb(215, 215, 215);
+}
+
+.Cohorte15 { background-color: rgb(255, 201, 52); font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; }
+
+#Jaciel { color: lightskyblue; }
+
+#Maryana { color: crimson; font-size: large;}
+
+
+/* Aqui empieza mi practica de cajas */
+
+.cajaflotante {
+    margin: 40px 30px 0px 30px;
+    background-color: blanchedalmond;
+    border-style: dashed;
+    border-width: 1px;
+    border-color: azure;
+    border-radius:4px;
+    border-top:solid 0px;
+
+}
+
+.contenido {
+    padding: 15px;
+}
+
+.cabecera {
+    padding: 10px;
+    border-bottom: solid 1px #eeeeee;
+}
+
+.footer {
+    padding: 10px;
+    border-top: solid 1px #eeeeee;
+}
+
+.primario {
+    background-color: blue;
+    border: 0px;
+    padding: 5px;
+    color:#ffffff;
+    border-radius: 2px;
+    
+}
+
+.Secundario {
+    background-color: rgb(26, 26, 36);
+    border: 0px;
+    padding: 5px;
+    color:#ffffff;
+    border-radius: 2px;
+    
+}
+
+.facebook {
+    margin: 20px;
+    padding: 15px;
+    background-color: #3b5998;
+    color: #eeeeee;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: #3b5998;
+}
+
+.instagram {
+    margin: 20px;
+    padding: 15px;
+    background-color: #e9632e;
+    color: #eeeeee;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: #e9632e;
+}
+
+.tiktok {
+    margin: 20px;
+    padding: 15px;
+    background-color: #000000;
+    color: #eeeeee;
+    font-size: 20px;
+    border-radius: 10px;
+    border-color: #000000;
+}
+

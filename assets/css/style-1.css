@@ -1,0 +1,29 @@
+.img {
+    height: 350px;
+    width: 260px;
+    
+}
+
+
+.boton {
+    background-color: rgb(251, 255, 8);
+    color: rgb(49, 42, 42);
+    border-radius: 3px;
+    border-color: rgb(22, 22, 22);
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    border-top: 10px;
+    
+}
+
+body {
+    background-color: rgb(238, 207, 34);
+}
+
+.container {
+display:contents;
+grid-template-columns: 30% 40% 20%;
+gap: 1em;
+
+}
+
